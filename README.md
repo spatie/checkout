@@ -1,7 +1,6 @@
 # Remember the order id in the checkout process of a webshop
 
 [![Build Status](https://secure.travis-ci.org/freekmurze/checkout.png)](http://travis-ci.org/freekmurze/checkout)
-[![Coverage Status](https://coveralls.io/repos/freekmurze/checkout/badge.png?branch=master)](https://coveralls.io/r/freekmurze/checkout?branch=master)
 [![Latest Stable Version](https://poser.pugx.org/spatie/checkout/version.png)](https://packagist.org/packages/spatie/checkout)
 [![License](https://poser.pugx.org/spatie/checkout/license.png)](https://packagist.org/packages/spatie/checkout)
 
