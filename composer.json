@@ -31,6 +31,7 @@
     "minimum-stability": "stable",
     "require-dev": {
         "phpspec/phpspec": "2.0.*",
-        "mockery/mockery": "dev-master"
+        "satooshi/php-coveralls": "0.6.1",
+        "henrikbjorn/phpspec-code-coverage" : "0.2.0"
     }
 }
