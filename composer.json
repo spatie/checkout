@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\": "src/Spatie"
+            "Spatie\\Checkout\\": "src"
         }
     },
     "minimum-stability": "stable",
