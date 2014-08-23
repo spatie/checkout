@@ -1,0 +1,35 @@
+{
+    "name": "spatie/checkout",
+    "description": "A simple e-commerce checkout helper for Laravel 4",
+    "keywords":
+        [
+            "webshop",
+            "checkout",
+            "laravel",
+            "payment",
+            "gateway",
+            "helper",
+            "laravel"
+        ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Freek Van der Herten",
+            "email": "freek@spatie.be"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.2",
+        "illuminate/session": "~4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Spatie\\": "src/Spatie"
+        }
+    },
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*"
+    }
+}

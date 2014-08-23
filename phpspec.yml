@@ -1,0 +1,6 @@
+suites:
+  spatie_suite:
+    namespace: Spatie\Checkout
+    src_path: src/Spatie/Checkout
+    spec_path: tests
+    spec_prefix: spec
