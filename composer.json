@@ -30,6 +30,7 @@
     },
     "minimum-stability": "stable",
     "require-dev": {
-        "phpspec/phpspec": "2.0.*"
+        "phpspec/phpspec": "2.0.*",
+        "mockery/mockery": "dev-master"
     }
 }
