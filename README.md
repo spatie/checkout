@@ -1,7 +1,7 @@
 # Remember the order id in the checkout process of a webshop
 
 [![Latest Stable Version](https://poser.pugx.org/spatie/browsershot/version.png)](https://packagist.org/packages/spatie/checkout)
-[![License](https://poser.pugx.org/spatie/browsershot/license.png)](https://packagist.org/packages/spatie/checkout)
+[![License](https://poser.pugx.org/spatie/checkout/license.png)](https://packagist.org/packages/spatie/checkout)
 
 When building a checkout process for a webshop, you likely discovery a need to store the id of a newly created order in a session.
 This Laravel package provides a clean way to work the order id in the session.
