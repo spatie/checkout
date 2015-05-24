@@ -1,6 +1,7 @@
 {
     "name": "spatie/checkout",
     "description": "A simple e-commerce checkout helper for Laravel 4",
+    "homepage": "https://github.com/spatie/checkout"
     "keywords":
         [
             "webshop",
