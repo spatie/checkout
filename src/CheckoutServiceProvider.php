@@ -12,6 +12,6 @@ class CheckoutServiceProvider extends ServiceProvider
             return $this->app->make('Spatie\Checkout\Checkout');
         });
 
-        $this->app->alias(Checkout::class);
+        $this->app->alias(Checkout::class, 'checkout');
     }
 }
