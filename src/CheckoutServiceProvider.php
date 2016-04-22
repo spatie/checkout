@@ -1,18 +1,17 @@
-<?php namespace Spatie\Checkout;
+<?php
+
+namespace Spatie\Checkout;
 
 use Illuminate\Support\ServiceProvider;
 
-class CheckoutServiceProvider extends ServiceProvider {
-
-    /**
-     * Create binding
-     */
+class CheckoutServiceProvider extends ServiceProvider
+{
     public function register()
     {
-        $this->app->bindShared('checkout', function()
-        {
+        $this->app->singleton(Checkout::class, function () {
             return $this->app->make('Spatie\Checkout\Checkout');
         });
-    }
 
+        $this->app->alias(Checkout::class);
+    }
 }

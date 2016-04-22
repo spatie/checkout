@@ -1,11 +1,13 @@
-<?php namespace Spatie\Checkout;
+<?php
+
+namespace Spatie\Checkout;
 
 use Illuminate\Support\Facades\Facade;
 
-class CheckoutFacade extends Facade {
-
+class CheckoutFacade extends Facade
+{
     /**
-     * Get the binding in the IoC container
+     * @see \Spatie\Checkout\Checkout
      *
      * @return string
      */
@@ -13,5 +15,4 @@ class CheckoutFacade extends Facade {
     {
         return 'checkout';
     }
-
 }

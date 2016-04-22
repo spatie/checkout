@@ -1,9 +1,11 @@
-<?php namespace Spatie\Checkout;
+<?php
+
+namespace Spatie\Checkout;
 
 use Illuminate\Session\Store;
 
-class Checkout {
-
+class Checkout
+{
     private $sessionVariableName = 'spatie.checkout.currentOrderId';
 
     /**
@@ -14,13 +16,13 @@ class Checkout {
     /**
      * @param Store $session
      */
-    function __construct(Store $session)
+    public function __construct(Store $session)
     {
         $this->session = $session;
     }
 
     /**
-     * Set the current order id
+     * Set the current order id.
      *
      * @param $orderId
      */
@@ -30,7 +32,7 @@ class Checkout {
     }
 
     /**
-     * Get the current order id
+     * Get the current order id.
      *
      * @return mixed
      */
@@ -40,8 +42,7 @@ class Checkout {
     }
 
     /**
-     * Clear the current order id
-     *
+     * Clear the current order id.
      */
     public function clearCurrentOrderId()
     {
@@ -49,14 +50,14 @@ class Checkout {
     }
 
     /**
-     * Check if the given order id is the current order id
+     * Check if the given order id is the current order id.
      *
      * @param $orderId
+     *
      * @return bool
      */
     public function isCurrentOrderId($orderId)
     {
-        return ($this->getCurrentOrderId() == $orderId);
+        return $this->getCurrentOrderId() == $orderId;
     }
-
 }
