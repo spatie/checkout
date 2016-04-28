@@ -58,7 +58,7 @@ Your order id will be stored in Laravel's session store.
 You can retrieve the value with:
 
 ```php
-    Checkout::setCurrentOrderId($yourOrderId);
+    Checkout::getCurrentOrderId($yourOrderId);
 ```
 
 These methods are also provided:
