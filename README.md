@@ -12,12 +12,8 @@ This Laravel package provides a clean way to work the order id in the session.
 
 This package can be installed through Composer.
 
-```js
-{
-    "require": {
-		"spatie/checkout": "dev-master"
-	}
-}
+```
+composer require spatie/checkout
 ```
 
 There is a service provider you can make use of.
