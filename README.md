@@ -2,6 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/spatie/checkout.png)](http://travis-ci.org/spatie/checkout)
 [![Latest Stable Version](https://poser.pugx.org/spatie/checkout/version.png)](https://packagist.org/packages/spatie/checkout)
+[![StyleCI](https://styleci.io/repos/23244021/shield?branch=master)](https://styleci.io/repos/23244021)
 [![License](https://poser.pugx.org/spatie/checkout/license.png)](https://packagist.org/packages/spatie/checkout)
 
 When building a checkout process for a webshop, you likely discovery a need to store the id of a newly created order in a session.
