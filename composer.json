@@ -30,6 +30,6 @@
     },
     "minimum-stability": "stable",
     "require-dev": {
-        "phpspec/phpspec": "^2.0"
+        "phpspec/phpspec": "^2.5.5"
     }
 }
