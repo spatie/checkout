@@ -2,8 +2,8 @@
 
 namespace spec\Spatie\Checkout;
 
-use Illuminate\Session\Store as Store;
 use PhpSpec\ObjectBehavior;
+use Illuminate\Session\Store as Store;
 
 class CheckoutSpec extends ObjectBehavior
 {
