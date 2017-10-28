@@ -36,7 +36,7 @@ There is a service provider you can make use of.
 ];
 ```
 
-This package also comes with a facade, which provides an easy way to call the the class.
+This package also comes with a facade, which provides an easy way to use this class.
 
 
 ```php
@@ -62,11 +62,11 @@ Your order id will be stored in Laravel's session store.
 You can retrieve the value with:
 
 ```php
-    Checkout::getCurrentOrderId($yourOrderId);
+    Checkout::getCurrentOrderId();
 ```
 
 These methods are also provided:
 
 * `Checkout::clearCurrentOrderId()`: Forget the previously stored value.
-* `Checkout::isCurrentOrderId($orderId)`: Convenience method to determine if the given orderId is equal to the value stored with the previous call to `setCurrentOrderId`
+* `Checkout::isCurrentOrderId($orderId)`: Convenient method to determine if the given orderId is equal to the value stored with the previous call to `setCurrentOrderId`.
 
